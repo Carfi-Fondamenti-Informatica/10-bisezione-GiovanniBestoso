@@ -9,7 +9,7 @@ float f( float a){
 }
 
 int main() {
-    float a=0, b=0, x,err;
+    float a=0, b=0, x,err=1;
     while((f(a)* f(b))>=0){
         cout<<"inserire estremi"; cin>>a>>b;
     }
