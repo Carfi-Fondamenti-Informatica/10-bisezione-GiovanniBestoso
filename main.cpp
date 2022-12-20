@@ -15,7 +15,7 @@ int main() {
         cin>>a>>b;
     }
     x=(a+b)/2;
-    while ((f(x)!=0)and(err<(1/(exp(6))))){
+    while ((f(x)!=0)and(err<(1e-6)))){
         x=(a+b)/2;
         if ((f(x)*f(b))<0){
             b=x;
@@ -24,7 +24,7 @@ int main() {
         }
         err= abs((b-a)/2);
     }
-        cout<<x<<endl;
+        
     x=x*10000;
     x=(int)x;
     x=x/10000;
