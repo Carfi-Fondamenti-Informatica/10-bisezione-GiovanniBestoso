@@ -11,7 +11,8 @@ float f( float a){
 int main() {
     float a=0, b=0, x,err=1;
     while((f(a)* f(b))>=0){
-        cout<<"inserire estremi"; cin>>a>>b;
+        cout<<"inserire estremi"<<endl;
+        cin>>a>>b;
     }
     x=(a+b)/2;
     while ((f(x)!=0)and(err<(1/(exp(6))))){
