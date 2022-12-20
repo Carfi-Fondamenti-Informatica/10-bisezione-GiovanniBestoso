@@ -6,6 +6,7 @@ float f( float a){
     float y=0;
     y= ((a*a)* cos(a))+1;
     return y;
+}
 
 int main() {
     float a=0, b=0, x,err;
